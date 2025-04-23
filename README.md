@@ -168,6 +168,9 @@ cd secure-ipcam-android
 
 Nella repo sono presenti alcuni script utili per avviare rapidamente il server VPN e l'app di IP webcam:
 
+> [!TIP]
+> Per evitare che Termux si blocchi quando lo schermo del telefono è spento, premi sulla notifica di Termux e tocca **"Acquire wakelock"**. Questo manterrà il terminale attivo in background.
+
 - "start_vpn_server.sh" \
     Avvia il server VPN in background e imposta le regole di routing.
 
